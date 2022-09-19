@@ -9,8 +9,8 @@ int main()
     cin >> a >> b >> c;
     int d;
     d=sqrt(b*b-4*a*c);
-    root_1=(-b+d)/2a;
-    root_2=(-b-d)/2a;
+    root_1=(-b+d)/2*a;
+    root_2=(-b-d)/2*a;
     if(d<0)
     {
         cout << "roots are imaginary";
@@ -20,6 +20,6 @@ int main()
         cout << "roots are real";
     }
     cout << "roots are root_1" << root_1 << endl;
-    cout << "root_2" << root_2; 
+    cout << "root_2" << root_2 << endl; 
     return 0;
 }
